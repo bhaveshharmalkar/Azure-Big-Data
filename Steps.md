@@ -34,6 +34,8 @@
 30. Go to `Manage` -> `Certificates & Secrets` -> `New client Secret` name as `databricks-client-sec` and Add. We have `Value` secret.
 31. Then add python code that present in file file.py in newly created notebook in databricks and fill value such as application, directory id and storage account name and client secret value as service_credential_key.
 32. Then go to storage account created early as `olist1storageaccount` then container > then created container as `olistcontainer` > Access Control > Add role assignment > Search for `Storage Blob Data Contributor` > Next > Tick on User,group or service principle then click on select members after that search for `olist-app-registration-databricks-adls` > Select.
-29. After that create New notebook.
+Used this [resource](https://learn.microsoft.com/en-us/azure/databricks/connect/storage/tutorial-azure-storage)
+33. After that create New notebook as `Databricks_Spark`.
 
-databricks-scope
+
+
